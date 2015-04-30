@@ -23,7 +23,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 ## cacheSolve wraps the base solve function in R
-## in uses the matrix set in the makeCacheMatrix function
+## in uses the matrix set in the makecaCacheMatrix function
 cacheSolve <- function(x, ...) {
   
   ## Return a matrix that is the inverse of 'x'
